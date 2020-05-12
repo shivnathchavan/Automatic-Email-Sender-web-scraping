@@ -33,7 +33,10 @@ def send_mail():
    server.ehlo()
    server.starttls()
    server.ehlo()
-   server.login('shivnathchavan101@gmail.com','wwqzbxwudxysfhjd')
+
+   #generate password for your gmail account
+   server.login('shivnathchavan101@gmail.com','generated password')
+   #content of gmail
    subject="price fell down"
    body="go to th link 'https://www.flipkart.com/nutrabay-pure-series-whey-protein-concentrate-raw-usa-33-servings/p/itm7b92e8ee7a4ac?pid=PSLFHNGCXQMGDGMN&lid=LSTPSLFHNGCXQMGDGMNYSGMEJ&marketplace=FLIPKART&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&fm=SEARCH&iid=eb74d601-5e8c-48c7-a46a-b86f0b3ef15c.PSLFHNGCXQMGDGMN.SEARCH&ppt=sp&ppn=sp&ssid=9fdwf16im80000001589007101432&qH=23303970e8805854 '"
 
@@ -47,4 +50,5 @@ def send_mail():
    print("done")
    server.quit()
 
+#function to checkprice
 checkprice()
