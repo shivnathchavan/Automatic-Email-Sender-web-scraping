@@ -34,6 +34,9 @@ def send_mail():
    server.starttls()
    server.ehlo()
 
+
+   //comment
+
    #generate password for your gmail account
    server.login('shivnathchavan101@gmail.com','generated password')
    #content of gmail
