@@ -58,3 +58,5 @@ def send_mail():
 
 #function to checkprice
 checkprice()
+
+#changes for PR merge 
