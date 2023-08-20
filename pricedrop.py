@@ -34,6 +34,10 @@ def send_mail():
    server.starttls()
    server.ehlo()
 
+
+   //comment
+   //comment
+
    #generate password for your gmail account
    server.login('shivnathchavan101@gmail.com','generated password')
    #content of gmail
@@ -50,5 +54,9 @@ def send_mail():
    print("done")
    server.quit()
 
+ //comment
+
 #function to checkprice
 checkprice()
+
+#changes for PR merge 
