@@ -54,7 +54,7 @@ def send_mail():
    print("done")
    server.quit()
 
- //comment
+ //comment Comment
 
 #function to checkprice
 checkprice()
