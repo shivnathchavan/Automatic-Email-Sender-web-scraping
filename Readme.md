@@ -46,6 +46,10 @@ python flipkart_price_tracker.py
 
 The script will check the price of the product. If the price falls below the set threshold, it will send an email notification.
 
+<p align="center">
+    <img src="output.png" alt="Output Screenshot">
+</p>
+
 #### Note
 
 Be cautious when using automated scripts for web scraping, as some websites may have terms of service that prohibit scraping. Always respect website terms and policies.
