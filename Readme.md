@@ -39,7 +39,7 @@ In the send_mail function:
 Run the script:
 
 ```bash
-python flipkart_price_tracker.py 
+python Pricedrop.py 
 ```
 
 
